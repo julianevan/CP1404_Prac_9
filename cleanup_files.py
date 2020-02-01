@@ -20,7 +20,7 @@ def main():
             continue
         new_name = get_fixed_filename(filename)
         print("Renaming {} to {}".format(filename, new_name))
-        
+
 
 def get_fixed_filename(filename):
     """Return a 'fixed' version of filename."""
